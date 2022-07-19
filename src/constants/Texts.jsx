@@ -21,10 +21,10 @@ export const TEXTS = {
       text: 'Imdb-like movie database web application which is created with .NET 5, Multi API distributed CMS project. ',
     },
     chat: {
-      url: 'Imdb-like movie database web application which is created with .NET 5, Multi API distributed CMS project. ',
+      url: 'https://github.com/ilovepilav/ChatApp',
       text: 'Chat Application which is created with RabbitMQ, SignalR and .NET. ',
     },
-    canan: {url: 'https://drcanancaliskan.com/', text: 'Personal Website '},
+    canan: { url: 'https://drcanancaliskan.com/', text: 'Personal Website ' },
   },
   certificates: {
     aspnet: 'Developing ASP.NET MVC 5 Web Applications',
