@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import {
+  FaReact,
   FaJs,
   FaPython,
   FaHtml5,
@@ -33,8 +34,14 @@ function Main() {
         </a>
         <p className="mt-16 text-gray-600">{TEXTS.profileSummary}</p>
         <div className="flex py-4 gap-7">
-          <SocialIcon iconDrawPath={ICON_PATHS.LINKEDIN2}></SocialIcon>
-          <SocialIcon iconDrawPath={ICON_PATHS.GITHUB}></SocialIcon>
+          <SocialIcon
+            iconDrawPath={ICON_PATHS.LINKEDIN2}
+            url="https://www.linkedin.com/in/%C3%A7a%C4%9Fr%C4%B1-sakao%C4%9Flu-436781210/"
+          ></SocialIcon>
+          <SocialIcon
+            iconDrawPath={ICON_PATHS.GITHUB}
+            url="https://github.com/ilovepilav"
+          ></SocialIcon>
           <SocialIcon iconDrawPath={ICON_PATHS.TWITTER}></SocialIcon>
           <SocialIcon iconDrawPath={ICON_PATHS.FACEBOOK}></SocialIcon>
         </div>
@@ -54,6 +61,7 @@ function Main() {
           PROGRAMMING LANGUAGES & TOOLS
         </h3>
         <div className="mt-5 flex h-12 mb-5 w-max gap-2 overflow-hidden">
+          <FaReact className="opacity-60" size={'100%'} />
           <img src={CsharpLogo} alt="csharp-logo" className="opacity-80" />
           <FaJs className="opacity-60" size={'100%'}></FaJs>
           <FaPython className="opacity-60" size={'100%'}></FaPython>
@@ -105,6 +113,12 @@ function Main() {
         />
       </Section>
       <Section title="certifications" id="certificates">
+        <ListItem
+          listIcon={<FaTrophy className="fill-orange-500" />}
+          detailType={detailType.detailed}
+          title="TryHackMe"
+          text={TEXTS.certificates.tryhackme}
+        />
         <ListItem
           listIcon={<FaTrophy className="fill-orange-500" />}
           detailType={detailType.detailed}

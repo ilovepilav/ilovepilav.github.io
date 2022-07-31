@@ -1,10 +1,6 @@
 export const TEXTS = {
   name: 'Çağrı SAKAOĞLU',
-  profileSummary: `I have a good experience with C#, .NET, Entity Framework, RabbitMQ, SignalR, PostgreSQL, MSSQL, JavaScript, JQuery, Git
-  and medium experience with Python, Dart, Flutter, Linux, Data Structures and Algorithms.
-  Also familiar with Docker, Nginx, Azure Cloud Services, CI/CD pipelines, Heroku.
-  Finally aware of Design Patterns and SOLID principles.`,
-
+  profileSummary: `I'm a self-taught full stack developer from Turkey. I have expertise in .NET, NodeJS for the backend and React for the frontend. I developed cross-platform mobile apps with both Flutter and React Native. I'm currently learning native iOS development with Swift. I ❤️  Vim, Arch Linux and Hackintosh.`,
   education: {
     university: 'ISTANBUL UNIVERSITY',
     bachelor: 'BACHELOR OF ENGINEERING',
@@ -31,5 +27,6 @@ export const TEXTS = {
     cssHtml: 'Programmiing in HTML5 with JavaScript and CSS3',
     bilgeAdam: 'Development with .NET Certification Programme(320h)',
     flutter: 'The Complete 2021 Flutter Development Bootcamp with Dart ',
+    tryhackme: 'Jr. Penetration Tester Learning Path',
   },
 };
