@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.84d2694a.css",
-    "main.js": "/static/js/main.9845e14d.js",
+    "main.css": "/static/css/main.b81b42ad.css",
+    "main.js": "/static/js/main.adf51579.js",
     "static/media/csharp-logo.svg": "/static/media/csharp-logo.304507ec3f1a51fd790da2fe58cde6bf.svg",
     "index.html": "/index.html",
-    "main.84d2694a.css.map": "/static/css/main.84d2694a.css.map",
-    "main.9845e14d.js.map": "/static/js/main.9845e14d.js.map"
+    "main.b81b42ad.css.map": "/static/css/main.b81b42ad.css.map",
+    "main.adf51579.js.map": "/static/js/main.adf51579.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d2694a.css",
-    "static/js/main.9845e14d.js"
+    "static/css/main.b81b42ad.css",
+    "static/js/main.adf51579.js"
   ]
 }
