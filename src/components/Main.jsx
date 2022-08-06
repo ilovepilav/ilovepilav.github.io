@@ -60,7 +60,7 @@ function Main() {
         <h3 className="font-saira text-2xl font-semibold text-gray-600">
           PROGRAMMING LANGUAGES & TOOLS
         </h3>
-        <div className="mt-5 flex h-12 mb-5 w-max gap-2 overflow-hidden">
+        <div className="mt-5 flex h-12 mb-5 gap-2 overflow-hidden md:max-w-lg">
           <FaReact className="opacity-60" size={'100%'} />
           <img src={CsharpLogo} alt="csharp-logo" className="opacity-80" />
           <FaJs className="opacity-60" size={'100%'}></FaJs>
